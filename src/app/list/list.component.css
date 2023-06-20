@@ -1,0 +1,11 @@
+.lists {
+    background-color:whitesmoke;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 120px;
+    width: 100vw;
+    height: 40px;
+    list-style: none;
+
+}

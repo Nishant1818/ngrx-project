@@ -1,0 +1,31 @@
+<p>list works!</p>
+<div class="main-container">
+<ul class="lists">
+<li class="list"></li>
+<li class="list">vehicle type</li>
+<li class="list">vehicle No.</li>
+
+
+
+ </ul>
+</div>
+
+
+    <app-item *ngFor="let data of users$ | async" [data]="data"></app-item>
+
+  
+
+
+<!-- <app-item *ngFor="let user of (users$ | async)" [data]="user"></app-item> -->
+<!-- <ng-container *ngIf="(users$ | async) as users">
+    <app-item *ngFor="let user of users" [data]="user"></app-item>
+  </ng-container> -->
+  
+  <!-- <ng-container *ngIf="(users$ | async) as users">
+    <app-item *ngFor="let user of users" [data]="user"></app-item>
+  </ng-container> -->
+
+
+  <!-- <app-item *ngFor="let data of users$ | async" [data]="data"></app-item> -->
+
+  

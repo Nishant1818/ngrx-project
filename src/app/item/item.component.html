@@ -1,0 +1,41 @@
+
+<ul class="list3">
+
+    <li class="agent">
+
+      {{ data?.vehicle?.vehicleRegistrationNumber ? data.vehicle.vehicleRegistrationNumber : 'NA' }}
+
+    </li>
+
+    <li class="vehicle">
+
+      {{ data?.vehicle?.vehicleType ? data?.vehicle?.vehicleType: data.vehicle?.vehicleLoadType?.name ? data.vehicle?.vehicleLoadType?.name : 'NA' }}
+
+    </li>
+
+    <!-- <li class="branch">
+
+      {{ data?.branch?.name ? data.branch.name : 'NA' }}
+
+    </li> -->
+
+    <!-- <li class="load">
+
+      {{ data?.vehicleLoadType?.bodyType ? data.vehicleLoadType.bodyType : 'NA' }}
+
+    </li>
+
+    <li class="driver">
+
+      {{ data?.driver?.name ? data.driver.name : 'NA' }}
+
+    </li>
+
+    <li class="source" [class.green]="data?.status" [class.red]="!data?.status">
+
+      {{ data?.status ? data.status : 'close' }}
+
+    </li> -->
+
+  </ul>
+
